@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<body>
+	<div id="d1">hello HTML DOM</div>
+	<div>hello BOM</div>
+	<div>hello DOM</div>
+</body>
+<script type="text/javascript">
+	var divs = document.getElementByTagName("div");
+	for(i=0;i<divs.length;i++){
+		document.write(divs[i]);
+		document.write("<br");
+	}
+</script>
+</head>
+
+</html>
