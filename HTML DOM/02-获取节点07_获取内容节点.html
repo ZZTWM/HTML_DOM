@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<body>
+	<div id="d1" align="center" class="abc">hello HTML DOM</div>
+</body>
+<script type="text/javascript">
+	var div1 = document.getElementById("d1");
+	var content = div1.childNodes[0];
+	document.write("div的内容节点名是：" + content.nodeName);
+	document.write("<br>");
+	document.write("div的内容节点值是：" + content.nodeValue);
+</script>
+</head>
+
+</html>
