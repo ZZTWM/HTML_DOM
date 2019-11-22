@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- 
+	参考本例代码，和通过id获取元素节点同样的代码 document.getElementById却无法获取元素节点。 
+	这是因为javascript是解释语言，是顺序执行的。 
+	在执行到 document.getElementById的时候，div标签还没有加载，所以无法获取。
+ -->
+<script type="text/javascript">
+	var div1 = document.getElementById("d1");
+	document.write(div1);
+</script>
+</head>
+<body>
+	<div id="d1">hello HTML DOM</div>
+</body>
+</html>
